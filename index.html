@@ -8,7 +8,6 @@
   <title>Lau &amp; Cris — 21.02.27</title>
   <link rel="preload" as="image" href="assets/couple-2012.jpg">
   <link rel="preload" as="image" href="assets/wax-seal-gold.png">
-  <link rel="preload" as="image" href="assets/couple-memory-2017.jpg">
   <link rel="preload" as="image" href="assets/couple-memory-2021.jpg">
   <link rel="preload" as="image" href="assets/couple-memory-2022-new.jpg">
   <link rel="preload" as="image" href="assets/couple-memory-2020.jpg">
@@ -105,7 +104,7 @@
     .memory-transition.active{opacity:1;visibility:visible}
     .memory-transition.exit{opacity:0;visibility:hidden}
     .memory-scene{position:absolute;inset:-7% 0;width:100%;height:114%;display:block;object-fit:cover;transition:opacity 1.1s ease;}
-    .memory-slide{opacity:0}.memory-slide.active{opacity:1}.memory-photo{object-position:center 48%;filter:saturate(.92) contrast(1.03)}.memory-photo-two{object-position:center 50%}.memory-photo-three{object-position:center 50%}.memory-photo-four{object-position:center 50%}.memory-photo-five{object-position:center 50%}.memory-photo-six{object-position:center 52%}
+    .memory-slide{opacity:0}.memory-slide.active{opacity:1}.memory-photo{object-position:center 48%;filter:saturate(.92) contrast(1.03)}.memory-photo-two{object-position:center 50%}.memory-photo-three{object-position:center 50%}.memory-photo-four{object-position:center 50%}.memory-photo-five{object-position:center 52%}
     .memory-hero{opacity:0;object-position:center 52%;transform:scale(1.08)}
     .memory-transition.hero-scene .memory-slide{opacity:0!important}.memory-transition.hero-scene .memory-hero{opacity:1}
     .memory-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,21,38,.3),rgba(10,21,38,.12) 48%,rgba(10,21,38,.38))}
@@ -115,7 +114,7 @@
     .memory-year.fade-year{opacity:0;transform:translateY(-18px) scale(.88);filter:blur(12px)}
     @keyframes year-enter-left{from{opacity:0;transform:translateX(-100vw);filter:blur(8px)}to{opacity:1;transform:translateX(0);filter:blur(0)}}
     @keyframes year-exit-right{from{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(100vw);filter:blur(6px)}}
-    @media(max-width:650px){.memory-photo{object-position:57% center}.memory-photo-two,.memory-photo-three,.memory-photo-four,.memory-photo-five,.memory-photo-six,.memory-hero{object-position:center 48%}.memory-year{font-size:clamp(96px,27vw,190px)}}
+    @media(max-width:650px){.memory-photo{object-position:57% center}.memory-photo-two,.memory-photo-three,.memory-photo-four,.memory-photo-five,.memory-hero{object-position:center 48%}.memory-year{font-size:clamp(96px,27vw,190px)}}
     @media(prefers-reduced-motion:reduce){.memory-transition,.memory-scene,.memory-year{transition:none!important;animation:none!important}}
     /* The 2012 photo emerges from the envelope and grows into the first full-screen memory. */
     .letter-photo{width:min(82vw,310px);height:auto;aspect-ratio:1662/934}
@@ -226,11 +225,10 @@
   </div>
   <div class="memory-transition" id="memoryTransition" aria-hidden="true">
     <img class="memory-scene memory-slide memory-photo active" src="assets/couple-2012.jpg" alt="">
-    <img class="memory-scene memory-slide memory-photo-two" src="assets/couple-memory-2017.jpg" alt="">
-    <img class="memory-scene memory-slide memory-photo-three" src="assets/couple-memory-2021.jpg" alt="">
-    <img class="memory-scene memory-slide memory-photo-four" src="assets/couple-memory-2022-new.jpg" alt="">
-    <img class="memory-scene memory-slide memory-photo-five" src="assets/couple-memory-2020.jpg" alt="">
-    <img class="memory-scene memory-slide memory-photo-six" src="assets/couple-memory-2022.jpg" alt="">
+    <img class="memory-scene memory-slide memory-photo-two" src="assets/couple-memory-2021.jpg" alt="">
+    <img class="memory-scene memory-slide memory-photo-three" src="assets/couple-memory-2022-new.jpg" alt="">
+    <img class="memory-scene memory-slide memory-photo-four" src="assets/couple-memory-2020.jpg" alt="">
+    <img class="memory-scene memory-slide memory-photo-five" src="assets/couple-memory-2022.jpg" alt="">
     <img class="memory-scene memory-hero" src="assets/couple-hero.jpg" alt="">
     <div class="memory-shade"></div><div class="memory-year" id="memoryYear">2012</div>
   </div>
