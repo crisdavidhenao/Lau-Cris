@@ -206,6 +206,8 @@
     .intro-frame.guest-name-focus:after{display:block;position:fixed;inset:0;left:0;right:0;top:0;bottom:0;width:100vw;height:100vh;height:100dvh;z-index:8;pointer-events:none;transform:none;background:none;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:1}
     .intro-frame .intro-mark{display:grid;justify-items:center;gap:10px;font:italic clamp(25px,5vw,34px)/1.05 var(--serif);letter-spacing:-.045em}
     .intro-frame .intro-mark small{font:italic 500 .48em/1.15 var(--serif);letter-spacing:.12em}
+    .rsvp{background:rgba(220,230,239,.72);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
+    .rsvp-box p{color:#526078}
   </style>
 </head>
 <body class="intro-lock">
@@ -265,7 +267,7 @@
     <section class="gift"><div class="gift-inner reveal"><svg class="envelope-icon" viewBox="0 0 64 48" role="img" aria-label="Sobre"><rect x="3" y="5" width="58" height="38" rx="2"/><path d="m4 8 28 21L60 8M4 42l20-17m36 17L40 25"/></svg><div class="section-label">Un detalle de cariño</div><h2>Lluvia de sobres</h2><p>Si desean hacernos un regalo, recibiremos con mucho cariño su sobre durante la celebración.</p></div></section>
     <section class="guest-note"><div class="guest-note-card reveal"><div class="section-label">Una nota con cariño</div><h2>Una invitación personal</h2><p class="guest-recipient" id="guestRecipient" hidden></p><p id="guestNoteCopy">Esta invitación está reservada con mucho cariño para la persona cuyo nombre aparece aquí. Hemos preparado una celebración solo para adultos, pensada para que todos puedan disfrutar plenamente de la fiesta. En esta ocasión no podremos recibir niños. Tampoco contaremos con espacio para mascotas. Gracias por su comprensión y por acompañarnos con tanto cariño.</p></div></section>
     <section class="drink-note"><div class="drink-card reveal"><svg class="drink-icon" viewBox="0 0 48 56" aria-hidden="true"><path d="M10 5h28l-2 15c-1 8-5 12-11 13-6-1-10-5-11-13L10 5Zm15 28v15m-9 0h18M13 14h22"/><path d="M18 20c2 2 4 2 7 0s5-2 7 0"/></svg><div class="section-label">Un brindis por los novios</div><h2>Habrá bebidas para celebrar</h2><p>Durante la fiesta habrá bebidas alcohólicas. Si vas a tomar, por favor cuenta con un conductor elegido para regresar con tranquilidad.</p></div></section>
-    <section class="rsvp"><div class="rsvp-box reveal"><div class="section-label">Tu compañía hace la diferencia</div><h2 class="section-heading">¿Nos acompañas?</h2><p>Confírmanos tu asistencia para que podamos preparar cada detalle con mucho cariño.</p><div class="actions"><a class="button primary" id="whatsappConfirm" href="https://wa.me/573183996853?text=Hola%20Lau%20y%20Cris%2C%20quiero%20confirmar%20mi%20asistencia%20a%20su%20matrimonio%20del%2021%20de%20febrero%20de%202027." target="_blank" rel="noreferrer">Confirmar por WhatsApp ↗</a><a class="button secondary" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Matrimonio%20Lau%20%26%20Cris&dates=20270221/20270222&details=Celebraci%C3%B3n%20del%20matrimonio%20de%20Lau%20y%20Cris&location=Hacienda%20San%20Sebasti%C3%A1n" target="_blank" rel="noreferrer">Guardar la fecha ↗</a></div><p class="response-note">Nos hará muy felices celebrar este día contigo.</p></div></section>
+    <section class="rsvp"><div class="rsvp-box reveal"><div class="section-label">Tu compañía hace la diferencia</div><h2 class="section-heading">¿Nos acompañas?</h2><p>Confírmanos tu asistencia para que podamos preparar cada detalle con mucho cariño. Al responder, por favor incluye el número de identificación de cada persona de esta invitación.</p><div class="actions"><a class="button primary" id="whatsappConfirm" href="https://wa.me/573183996853?text=Hola%20Lau%20y%20Cris%2C%20quiero%20confirmar%20mi%20asistencia%20a%20su%20matrimonio%20del%2021%20de%20febrero%20de%202027." target="_blank" rel="noreferrer">Confirmar asistencia por WhatsApp ↗</a></div><p class="response-note">Nos hará muy felices celebrar este día contigo.</p></div></section>
   </main>
   <footer class="paper-parallax">Nos vemos para celebrar <small>Lau &amp; Cris · Los Memes</small></footer>
   <script>
@@ -278,19 +280,19 @@
       linaTatianaB:'Lina Tatiana Basto',
       andresFelipeBDeysi:'Andrés Felipe Basto y Deysi León',
       enriqueMarthaPatriciaLauraUAlejandraU:'Enrique Uribe, Martha Patricia Basto, Laura Daniela Uribe y Alejandra Uribe',
-      edilbertoFanny:'Edilberto Abril y Fanny Basto',
-      mariaD:'Abuela María Teresa Díaz',
-      fernandoAvErica:'Fernando AV y Érica',
+      edilbertoFanny:'Edilberto Abril, Fanny Basto y Paula Daniela Abril',
+      mariaD:'María Teresa Díaz',
+      fernandoAvErica:'Fernando Avellaneda y Érika Arias',
       gerardoDeyaniraJuanFelipeG:'Gerardo García, Deyanira Guzmán y Juan Felipe García Guzmán',
       albertoPilar:'Alberto Barreras y Pilar Murcia',
       emily:'Emily Daza',
       nicolasD:'Nicolás Daza',
-      jorgeEDanielaR:'Jorge Escobar y Daniela Rodríguez',
+      jorgeEDanielaR:'Jorge Esteban Escobar y Daniela Rodríguez',
       karen:'Karen Escobar',
       davidHMelania:'David Henao y Melania Pinto',
       brayanAna:'Brayan Valencia y Ana Henao',
       yennyJhonEduardValencia:'Yenny Salamanca, Jhon Eduard Valencia Babativa y Jhon Eduard Valencia Salamanca',
-      mariaQ:'Abuela María Quintero',
+      mariaQ:'María Quintero',
       delia:'Abuela Delia Galindo',
       soniaAlvaro:'Sonia Henao Quintero y Álvaro Rodríguez',
       carlosQTatianaR:'Carlos Quintero y Tatiana Rodríguez',
@@ -313,26 +315,35 @@
       juanCamiloD:'Juan Camilo Delgadillo',
       nicolasRHillary:'Nicolás Rincón y Hillary Betancourt',
       stephanyCamiloA:'Stephany Díaz y Camilo Andrade',
-      miguelMEsposa:'Miguel Méndez y esposa',
+      miguelMEsposa:'Miguel Méndez y Elizabeth Ramírez',
+      miguelMElizabethRamirez:'Miguel Méndez y Elizabeth Ramírez',
       jhonatanEsposa:'Jhonatan Aprilia y esposa',
+      jonathanGomezEsposa:'Jonathan Gómez y Esposa',
+      vivianaTaylerGanther:'Viviana and Tayler Gunther',
+      vivianaTaylerGunther:'Viviana and Tayler Gunther',
+      elizabethHenaoJhonGarciaJuanMGarciaAntoniaGarcia:'Elizabeth Henao, Jhon Garcia, Juan M. Garcia y Antonia Garcia',
+      mariaDelPilarDevonDeVriesCalebNoahDeVriesVernonNina:'Maria del Pilar Rojas, Devon De Vries, Caleb Noah De Vries, Vernon, and Nina',
       gabriel:'Gabriel Gómez'
     };
     const queryParams=new URLSearchParams(window.location.search);
     const shortInvite=queryParams.get('p')||'';
     const legacyRecipient=(queryParams.get('para')||'').replace(/\s+/g,' ').trim().slice(0,180);
     const recipientName=inviteesBySlug[shortInvite]||legacyRecipient;
+    const isEnglishInvite=new Set(['vivianaTaylerGanther','vivianaTaylerGunther','mariaDelPilarDevonDeVriesCalebNoahDeVriesVernonNina']).has(shortInvite);
+    const noAttendanceSlugs=new Set(['vivianaTaylerGanther','vivianaTaylerGunther','elizabethHenaoJhonGarciaJuanMGarciaAntoniaGarcia','mariaDelPilarDevonDeVriesCalebNoahDeVriesVernonNina']);
+    const isNoAttendanceInvite=noAttendanceSlugs.has(shortInvite);
     if(recipientName){
       const introCaption=document.querySelector('.intro-caption');
-      const isGroup=/,|\s+y\s+/i.test(recipientName);
+      const isGroup=/,|\s+y\s+|,\s*and\s+/i.test(recipientName);
       const largeRecipientLabel=document.createElement('span');
       largeRecipientLabel.className='guest-name-large';
-      largeRecipientLabel.textContent=recipientName.replace(/,\s*/g,',\n').replace(/\s+y\s+/gi,'\ny\n');
+      largeRecipientLabel.textContent=isEnglishInvite?recipientName.replace(/,\s*and\s+/gi,'\nand\n').replace(/\s+and\s+/gi,'\nand\n').replace(/,\s*/g,',\n'):recipientName.replace(/,\s*/g,',\n').replace(/\s+y\s+/gi,'\ny\n');
       const compactRecipientLabel=document.createElement('span');
       compactRecipientLabel.className='guest-name-compact';
       compactRecipientLabel.textContent=recipientName;
       const recipientMessage=document.createElement('span');
       recipientMessage.className='guest-message';
-      recipientMessage.textContent=isGroup?'Esta invitación es para ustedes':'Esta invitación es para ti';
+      recipientMessage.textContent=isEnglishInvite?(isGroup?'This invitation is for all of you':'This invitation is for you'):(isGroup?'Esta invitación es para ustedes':'Esta invitación es para ti');
       introCaption.replaceChildren(largeRecipientLabel,compactRecipientLabel,recipientMessage);
       introCaption.classList.add('is-personalized');
       const introFrame=document.querySelector('.intro-frame');
@@ -343,9 +354,50 @@
       },1000)));
       document.getElementById('guestRecipient').textContent=recipientName;
       document.getElementById('guestRecipient').hidden=false;
-      document.getElementById('guestNoteCopy').textContent='Esta invitación está reservada con mucho cariño para las personas cuyos nombres aparecen aquí. Hemos preparado una celebración solo para adultos, pensada para que todos puedan disfrutar plenamente de la fiesta. En esta ocasión no podremos recibir niños. Tampoco contaremos con espacio para mascotas. Gracias por su comprensión y por acompañarnos con tanto cariño.';
-      const message=`Hola Lau y Cris, confirmo la invitación para ${recipientName}. Quiero confirmar mi asistencia a su matrimonio del 21 de febrero de 2027.`;
+      document.getElementById('guestNoteCopy').textContent=isEnglishInvite?'This invitation is lovingly reserved for the people named above. We have planned an adults-only celebration so everyone can relax and enjoy the festivities. We kindly ask that children not attend. We are also unable to accommodate pets. Thank you for your understanding and for being part of our lives.':'Esta invitación está reservada con mucho cariño para '+(isGroup?'las personas cuyos nombres aparecen aquí.':'la persona cuyo nombre aparece aquí.')+' Hemos preparado una celebración solo para adultos, pensada para que todos puedan disfrutar plenamente de la fiesta. En esta ocasión no podremos recibir niños. Tampoco contaremos con espacio para mascotas. Gracias por su comprensión y por acompañarnos con tanto cariño.';
+      const invitedPeople=recipientName.split(/,\s*/).flatMap((part,index,parts)=>index===parts.length-1?part.split(/\s+y\s+/i):[part]);
+      const identificationFields=invitedPeople.map(person=>`${person.trim()}: `).join('\n');
+      const message=`Hola Lau y Cris, confirmo la asistencia de ${recipientName} a su matrimonio del 21 de febrero de 2027.\n\nNúmeros de identificación de las personas de esta invitación:\n${identificationFields}`;
+      if(!isNoAttendanceInvite)document.getElementById('whatsappConfirm').href=`https://wa.me/573183996853?text=${encodeURIComponent(message)}`;
+    }
+    else if(!isNoAttendanceInvite){
+      const message='Hola Lau y Cris, confirmo mi asistencia al matrimonio del 21 de febrero de 2027. Estos son los nombres y números de identificación de las personas que asistirán:\nNombre completo — número de identificación:';
       document.getElementById('whatsappConfirm').href=`https://wa.me/573183996853?text=${encodeURIComponent(message)}`;
+    }
+    if(isNoAttendanceInvite){
+      document.querySelectorAll('.dress-section,.gift,.guest-note,.drink-note').forEach(section=>section.hidden=true);
+      const rsvpBox=document.querySelector('.rsvp-box');
+      const closingLabel=document.createElement('div');closingLabel.className='section-label';closingLabel.textContent=isEnglishInvite?'With all our love':'Con todo nuestro cariño';
+      const closingTitle=document.createElement('h2');closingTitle.className='section-heading';closingTitle.textContent=isEnglishInvite?'Always in our hearts':'Siempre presentes';
+      const closingMessage=document.createElement('p');closingMessage.textContent=isEnglishInvite?'We completely understand that you will not be able to celebrate with us in person, and we will miss having you there. Please know that you will be in our thoughts on this special day. We will always treasure the place you hold in our story and raise a glass to you and the memories we share. Sending you all our love.':'Entendemos que en esta ocasión no podrán acompañarnos y, aunque los vamos a extrañar, queremos que sepan que estarán muy presentes en nuestros pensamientos. Siempre guardaremos con mucho cariño el lugar que ocupan en nuestra historia y brindaremos por ustedes y por todos los momentos compartidos. Les enviamos un abrazo grande.';
+      rsvpBox.replaceChildren(closingLabel,closingTitle,closingMessage);
+    }
+    if(isEnglishInvite){
+      document.documentElement.lang='en';document.title='Lau & Cris — February 21, 2027';
+      const setText=(selector,value)=>{const element=document.querySelector(selector);if(element)element.textContent=value};
+      const setHTML=(selector,value)=>{const element=document.querySelector(selector);if(element)element.innerHTML=value};
+      document.querySelector('meta[name="description"]').setAttribute('content','An invitation to celebrate the love of Lau and Cris, The Memes.');
+      document.getElementById('envelopeIntro').setAttribute('aria-label','Open Lau and Cris’s wedding invitation');document.getElementById('envelopeStage').setAttribute('aria-label','Open the invitation');document.querySelector('.wax-seal').setAttribute('aria-label','Golden wax seal with the initials L and C');document.querySelector('.dog-postage').setAttribute('aria-label','Postage stamp featuring our dog');document.querySelector('.hero').setAttribute('aria-label','Lau and Cris’s wedding invitation');
+      setText('.topbar>span:last-child','A celebration to remember');
+      setText('.intro-hint','Tap the envelope or button to open');setText('#openNow','Open now');
+      setText('.hero .eyebrow','With great joy, we invite you to celebrate our wedding');setText('.hero-date','February 21, 2027');setText('.scroll-cue span','Scroll to discover');
+      setText('#invitacion .section-label','A day, a promise, our favorite people');setHTML('#invitacion h2','The beginning of<br><em>our forever</em>');setText('#invitacion p','Some moments become unforgettable because we share them with the people we love. We would be delighted to have you with us as we begin this new chapter.');
+      setText('.details .intro .section-label','Save the date');setText('.details .section-heading','See you in February');setText('.countdown-label','Countdown to our wedding');
+      document.querySelectorAll('.countdown-unit small').forEach((item,index)=>item.textContent=['Days','Hours','Minutes','Seconds'][index]);
+      const dateCard=document.querySelector('.detail-grid>.detail-card:first-child');
+      dateCard.querySelector('.section-label').textContent='The date';dateCard.querySelector('h3').innerHTML='Sunday<br>February 21';
+      const dateParagraphs=dateCard.querySelectorAll('p');dateParagraphs[0].textContent='Two hearts, one date to celebrate.';dateParagraphs[1].innerHTML='Arrival and reception<br><strong class="arrival-time">2:30 p.m.</strong>';
+      const weekdays=['M','T','W','T','F','S','S'];dateCard.querySelectorAll('.cal-days span').forEach((item,index)=>item.textContent=weekdays[index]);dateCard.querySelector('.cal-top span:nth-child(2)').textContent='February';document.querySelector('.calendar-toggle').textContent='Open calendar +';
+      setText('.venue-copy>.section-label','The venue');setHTML('.venue-copy>p','Subachoque–El Rosal km 3<br>El Rosal, Cundinamarca');document.querySelector('.place-art').alt='Illustrated map of the area around Hacienda San Sebastián';document.querySelector('.envelope-icon').setAttribute('aria-label','Envelope');
+      document.querySelector('.venue-meta p:first-child').innerHTML='<span class="clock-icon" aria-hidden="true"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.1"/><path d="M8 4.3V8l2.6 1.7"/></svg></span> Arrival and reception: <strong class="arrival-time">2:30 p.m.</strong>';
+      document.querySelector('.venue-meta p:last-child').innerHTML='<span aria-hidden="true">P</span> Parking available for cars.';setText('.venue-card .button','Open in Google Maps ↗');
+      setText('.story .section-label','The most important thing');setText('.story p','“Happiness grows when it is shared. Thank you for being part of our story.”');setText('.story .eyebrow','Lau & Cris · The Memes · 2027');
+      setText('.dress>.section-label','Celebrate with us');setHTML('.dress>p','We would love to share this day with you in <strong style="color:var(--ink)">formal attire</strong>. To complement our wedding palette, please avoid these six colors:');setText('.blocked-title','Reserved colors · please do not wear them');document.querySelector('.swatches.blocked').setAttribute('aria-label','Banner showing six reserved colors');document.querySelector('.dress-couple').alt='A couple dressed formally';
+      const dressGroups=document.querySelectorAll('.dress-group');dressGroups[0].querySelector('.section-label').textContent='Women';dressGroups[0].querySelector('p').textContent='Floor-length dresses only; no two-piece or cocktail dresses. Accessories are welcome. Please wear heels or formal shoes.';dressGroups[0].querySelector('.dress-reminder').textContent='Please avoid all six colors shown above.';dressGroups[1].querySelector('.section-label').textContent='Men';dressGroups[1].querySelector('p').textContent='A suit is required, with a dress shirt and formal shoes. A tie or bow tie is optional.';dressGroups[1].querySelector('.dress-reminder').textContent='Please avoid all six colors shown above.';
+      setText('.gift .section-label','A thoughtful gift');setText('.gift h2','A gift envelope');setText('.gift p','If you wish to give us a gift, we would be delighted to receive an envelope during the celebration.');
+      setText('.guest-note .section-label','A note from the heart');setText('.guest-note h2','A personal invitation');
+      setText('.drink-note .section-label','A toast to the newlyweds');setText('.drink-note h2','Drinks will be served');setText('.drink-note p','Alcoholic drinks will be available during the celebration. If you plan to drink, please arrange a designated driver so you can get home safely.');
+      setHTML('footer','We look forward to celebrating <small>Lau &amp; Cris · The Memes</small>');
     }
     const countdownTarget=new Date('2027-02-21T14:30:00-05:00').getTime();
     const countdownParts={days:document.getElementById('countdownDays'),hours:document.getElementById('countdownHours'),minutes:document.getElementById('countdownMinutes'),seconds:document.getElementById('countdownSeconds')};
@@ -441,7 +493,7 @@
     envelopeStage.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();openInvite()}});
     document.getElementById('openNow').addEventListener('click',openInvite);
     const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.14});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-    const toggle=document.getElementById('calendarToggle'),calendar=document.getElementById('calendar');toggle.addEventListener('click',()=>{const open=calendar.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'Cerrar calendario −':'Abrir calendario +'});
+    const toggle=document.getElementById('calendarToggle'),calendar=document.getElementById('calendar');toggle.addEventListener('click',()=>{const open=calendar.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=isEnglishInvite?(open?'Close calendar −':'Open calendar +'):(open?'Cerrar calendario −':'Abrir calendario +')});
   </script>
 </body>
 </html>
